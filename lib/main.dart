@@ -11,7 +11,7 @@ class ColorTapGame extends StatelessWidget {
     return MaterialApp(
       title: 'Color Tap',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple[600],
       ),
       home: ColorTapScreen(),
     );
